@@ -33,9 +33,10 @@ header div:last-child{
     align-items: center;
 }
 
-input{
+input , select{
     padding: 5px 20px;
     font-size: 1.125rem;
+    margin: 0 10px;
 }
 /* --------------------------------- */
 /* MAIN */
@@ -57,8 +58,6 @@ main{
 
 .cell{
     border: 1px solid black;
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,4 +65,17 @@ main{
 
 .colorbg{
     background-color: aqua;
+}
+
+.lv1{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+.lv2{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+.lv3{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
