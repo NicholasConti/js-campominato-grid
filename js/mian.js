@@ -18,7 +18,14 @@ function appendElement(containerEl, sonEl){
 //MAIN
 //------------------
 const cellBoard = document.querySelector('.board');
-for(let i = 1; i <= 100; i++){
-    const createdElement = myCreateEl('div', 'cell');
-    appendElement(cellBoard, createdElement);
-}
+
+const button = document.getElementById("start");
+
+button.addEventListener('click',
+    function(){
+        for(let i = 1; i <= 100; i++){
+            const createdElement = myCreateEl('div', 'cell');
+            appendElement(cellBoard, createdElement);
+        }
+    }
+);

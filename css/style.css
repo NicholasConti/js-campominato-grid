@@ -11,9 +11,31 @@ body{
 }
 
 header , footer{
-    padding: 3.125rem 2.5rem;
+    padding: 15px 20px;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div:first-child{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 60px;
+    margin-right: 10px;
+}
+header div:last-child{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    padding: 5px 20px;
+    font-size: 1.125rem;
+}
 main{
     flex-grow: 1;
     background-color: #7fffd4;
