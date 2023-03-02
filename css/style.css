@@ -9,7 +9,8 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/* --------------------------------- */
+/* HEADER */
 header , footer{
     padding: 15px 20px;
 }
@@ -36,6 +37,8 @@ input{
     padding: 5px 20px;
     font-size: 1.125rem;
 }
+/* --------------------------------- */
+/* MAIN */
 main{
     flex-grow: 1;
     background-color: #7fffd4;
@@ -56,4 +59,11 @@ main{
     border: 1px solid black;
     width: calc(100% / 10);
     height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorbg{
+    background-color: aqua;
 }
